@@ -1567,15 +1567,6 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
 	background-color:#444;
 }
 
-/*.sessionstable tr:first-of-type td:nth-child(even) { /*USED TO ALTERNATE COLORS
-	background-color:#333;
-	color:white;
-	font-size:9pt;
-	font-family:'HelveticaB';
-	border-left:1px solid white;
-	border-right:1px solid white;
-	padding:10px;
-}*/
 
 .sessionsdiv {
 	overflow-y:hidden;
