@@ -83,7 +83,6 @@
 /*			top: 25%;
 			left: 25%;
 */			width: 25%;
-			height: 25%;
 			padding: 16px;
 			background-color: white;
 			z-index:1002;
@@ -115,6 +114,9 @@
 			font-family:'HelveticaB';
 			font-size:9pt;
 			text-align:left;
+			color:#333;
+			letter-spacing:normal;
+			text-transform:none;
 		}
 		
 		.lightboxp {
@@ -123,6 +125,9 @@
 			font-size:8pt;
 			line-height:11pt;
 			text-align:left;
+			color:#333;
+			letter-spacing:normal;
+			text-transform:none;
 		}
 		
 		.lightboxspeaker {
@@ -451,11 +456,27 @@ SugarCon 2016 will offer new insight from experts and industry leaders on taking
     <table  cellspacing="0" cellpadding="0" class="sessionstable">
         <tr class="tr1">
         	<td class="label" style="padding-top:10px;border:none;backg">Track <i class="fa fa-chevron-right"></i></td>
-            <td rowspan="2">Align Initiatives<br><i class="fa fa-chevron-down"></i></td>
-            <td rowspan="2">Empower Individuals<br><i class="fa fa-chevron-down"></i></td>
-            <td rowspan="2">Orchestrate Interactions<br><i class="fa fa-chevron-down"></i></td>
-            <td rowspan="2">Deliver Insights<br><i class="fa fa-chevron-down"></i></td>
-            <td rowspan="2">Sugar<br>In-Depth<br><i class="fa fa-chevron-down"></i></td>
+            <td rowspan="2"><a class="lightboxa" href = "javascript:void(0)" onclick = "document.getElementById('lightt1').style.display='block';document.getElementById('fade').style.display='none'"><span  style="color:white;">Align Initiatives<br><i class="fa fa-chevron-down"></i></span></a>
+							<div id="lightt1" class="white_content"><a class="lightboxa" href = "javascript:void(0)" onclick = "document.getElementById('lightt1').style.display='none';document.getElementById('fade').style.display='none'"><i class="fa fa-times"></i></a><br><p class="lightboxh3">Align Initiatives</p><p class="lightboxp">Digital technologies are opening up new ways to engage and deliver value to customers. Companies that make customer engagement a strategic business focus, and leverage the latest technologies to do it better will win. Companies that don’t will miss out. These sessions will provide insights that will help you align critical business initiatives to transform customer relationships.</p></div></td>
+                            
+                            
+            <td rowspan="2"><a class="lightboxa" href = "javascript:void(0)" onclick = "document.getElementById('lightt2').style.display='block';document.getElementById('fade').style.display='none'"><span  style="color:white;">Empower Individuals<br><i class="fa fa-chevron-down"></i></span></a>
+							<div id="lightt2" class="white_content"><a class="lightboxa" href = "javascript:void(0)" onclick = "document.getElementById('lightt2').style.display='none';document.getElementById('fade').style.display='none'"><i class="fa fa-times"></i></a><br><p class="lightboxh3">Empower Individuals</p><p class="lightboxp">Stop for a second. Don’t think of CRM as software. Think about “Customer Relationship Management” as the business discipline that software can help you to do better. In these sessions, you’ll learn about how to empower individuals across your organization to advance your customer relationship building initiatives. How to get executive buy-in, how to drive user adoption, how to use CRM to build extraordinary customer relationships.        </p></div></td>
+                            
+                                
+            <td rowspan="2"><a class="lightboxa" href = "javascript:void(0)" onclick = "document.getElementById('lightt3').style.display='block';document.getElementById('fade').style.display='none'"><span  style="color:white;">Orchestrate Interactions<br><i class="fa fa-chevron-down"></i></span></a>
+							<div id="lightt3" class="white_content"><a class="lightboxa" href = "javascript:void(0)" onclick = "document.getElementById('lightt3').style.display='none';document.getElementById('fade').style.display='none'"><i class="fa fa-times"></i></a><br><p class="lightboxh3">Orchestrate Interactions</p><p class="lightboxp">Want to take your CRM initiative to the next level? Discover how Sugar can be used to automate critical business processes, orchestrating the interactions of the whole organization to improve customer interactions across the entire customer lifecycle. You’ll get a lot of valuable new ideas on how Sugar can be used to automate a broad range of processes to align and empower the whole organization.        
+            </p></div></td>
+            
+            
+            <td rowspan="2"><a class="lightboxa" href = "javascript:void(0)" onclick = "document.getElementById('lightt4').style.display='block';document.getElementById('fade').style.display='none'"><span  style="color:white;">Deliver Insights<br><i class="fa fa-chevron-down"></i></span></a>
+							<div id="lightt4" class="white_content"><a class="lightboxa" href = "javascript:void(0)" onclick = "document.getElementById('lightt4').style.display='none';document.getElementById('fade').style.display='none'"><i class="fa fa-times"></i></a><br><p class="lightboxh3">Deliver Insights</p><p class="lightboxp">The Sugar platform enables fast, seamless integration with virtually any application or data source. In these sessions, Sugar customers and partners will share in-depth technical examples of how they integrated Sugar with other systems to deliver new insights that enhance the customer experience.
+            </p></div></td>
+            
+            <td rowspan="2"><a class="lightboxa" href = "javascript:void(0)" onclick = "document.getElementById('lightt4').style.display='block';document.getElementById('fade').style.display='none'"><span  style="color:white;">Sugar-In-Depth<br><i class="fa fa-chevron-down"></i></span></a>
+							<div id="lightt4" class="white_content"><a class="lightboxa" href = "javascript:void(0)" onclick = "document.getElementById('lightt4').style.display='none';document.getElementById('fade').style.display='none'"><i class="fa fa-times"></i></a><br><p class="lightboxh3">Sugar-In-Depth</p><p class="lightboxp">New features and technologies make Sugar an increasingly vital tool for building extraordinary customer relationships. These SugarCRM-led sessions will offer a in-depth explorations of the latest Sugar capabilities. How to use the new Mobile SDK to develop cool mobile apps; the mobile app configurator; new Sugar 7.7 features; workflow automation and business process management; how to deploy in any cloud.          
+            </p></div></td>
+            
             <td rowspan="2">Birds of a Feather<br><i class="fa fa-chevron-down"></i></td>
             <td rowspan="2">UnCon<br><i class="fa fa-chevron-down"></i></td>
             <td rowspan="2">Sugar Labs<br><i class="fa fa-chevron-down"></i></td>
@@ -694,69 +715,6 @@ Are you using the Advanced Workflow features in Sugar Enterprise? This session w
     <br><br><a href="#top" class="top" style="color:#2088D7; font-family:'MontserratR';    FONT-SIZE: 12PX;    letter-spacing: 1px;    padding-top: 50px;"><i class="fa fa-chevron-circle-up fa-fw"></i>BACK TO TOP</a><br><br>
     
 </div>
-
-
-<!--
-    <div class="set-why-attend-faq animated fadeIn">
-		<h2 id="tracks" >Track Descriptions</h2>
-      <h4 style="font-size:18px;font-family:'HelveticaUL'; padding:10px 0px 10px 10px; background-color:#333;color:white; letter-spacing:.5px;">
-        Business Transformation
-      </h4>
-      <br>
-      <p>
-        Cutting edge technologies are creating new ways to engage and deliver value to customers. Organizations that re-think business from the customer’s point of view, and make use of new technologies to re-invent themselves will win. Companies that don’t will miss out. These sessions will provide insights and instruction that can help anyone, in any industry, build more engaging customer experiences that will transform your&nbsp;business.
-      </p>
-      <br>
-      <br>
-      <h4 style="font-size:18px;font-family:'HelveticaUL'; padding:10px 0px 10px 10px; background-color:#333;color:white;letter-spacing:.5px">
-        Winning CRM Strategies
-      </h4>
-      <br>
-      <p>
-        Stop for a second. Don’t think of “CRM" as software. Think about “customer relationship management” as the business discipline that software helps you to do. In these sessions, you’ll learn how your organization can DO customer relationship management better. How to get executive buy-in on becoming a more customer-focused business, how to set your CRM strategy, how to drive user adoption of your CRM… How to use CRM to build extraordinary customer&nbsp;relationships.
-      </p>
-      <br>
-      <br>
-      <h4 style="font-size:18px;font-family:'HelveticaUL'; padding:10px 0px 10px 10px; background-color:#333;color:white;letter-spacing:.5px">
-        CRM Can Do THAT?
-      </h4>
-      <br>
-      <p>
-        The Sugar platform is so broad and extensible, it enables the fast and seamless creation of all sorts of valuable solutions. These sessions will show how Sugar can be customized and integrated with other technologies to create indispensible tools for a variety of industries and use cases. Also, discover how the Sugar ecosystem makes it easy to create an incredibly diverse array of Sugar-powered&nbsp;solutions!
-      </p>
-      <br>
-      <br>
-      <h4 style="font-size:18px;font-family:'HelveticaUL'; padding:10px 0px 10px 10px; background-color:#333;color:white;letter-spacing:.5px">
-        Extending Sugar: How I Did It
-      </h4>
-      <br>
-      <p>
-        Want to take your CRM initiative to the next level? Want to discover how to extend Sugar into new uses, bridge departments, and improve the entire customer lifecycle? Then attend these highly informative, customer-led “How-to” sessions. You’ll get a lot of valuable new ideas and learn from the experts how to make the most of&nbsp;Sugar.
-      </p>
-      <br>
-      <br>
-      <h4 style="font-size:18px;font-family:'HelveticaUL'; padding:10px 0px 10px 10px; background-color:#333;color:white;letter-spacing:.5px">
-        Sugar In-Depth
-      </h4>
-      <br>
-      <p>
-        New features and technologies make Sugar an increasingly vital tool for building extraordinary customer relationships. These SugarCRM-led sessions will offer in-depth explorations of the latest Sugar capabilities. You’ll learn how to use the new Mobile SDK to develop cool mobile apps; all about the mobile app configurator; great mobile app design principles; workflow automation and business process management; how to move from basic workflow to advanced workflow; how to deploy in any cloud. If you want to hear from the experts, here’s your chance to dig in&nbsp;deep.
-      </p>
-      <br>
-      <br>
-      <h4 style="font-size:18px;font-family:'HelveticaUL'; padding:10px 0px 10px 10px; background-color:#333;color:white;letter-spacing:.5px">
-        Birds of a Feather
-      </h4>
-      <br>
-      <p style="padding-bottom:50px;">
-        SugarCon Birds of a Feather sessions are an attendee favorite! These special sessions bring together Sugar experts in similar industries or with similar use cases to learn from each other's successful use of Sugar. Informal and interactive, Birds of a Feather sessions enable Sugar practitioners and power users to come together and share successful strategies, Sugar customizations, helpful integrations into Sugar, and more. Find the topic that interests you and join&nbsp;in!<br><br><a href="#top" class="top" style="color:#2088D7"><i class="fa fa-chevron-circle-up fa-fw"></i>BACK TO TOP</a><br><br><br>
-            
-
-      </p>
-
-
-
-    </div>-->
     
   </div>
 
@@ -1125,7 +1083,7 @@ Join Paul Adamson, Spinnaker's Dir. of Marketing and Business Development, and J
         </div>
         
             <div class="fss1">
-            <img src="../images/x-02.png">
+            <img src="../images/headshots/angel magana.jpg">
             <p style="font-family:'HelveticaB';color:#f44336;font-size:10pt;">Angel Magana</p>
             <p style="font-size:10pt;">Technical Account Manager</p>
             <p style="font-family:'HelveticaB';font-size:10pt;">SugarCRM</p>
