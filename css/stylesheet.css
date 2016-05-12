@@ -314,35 +314,15 @@ body > section > div.full-why-attend.animated.fadeIn > div > h4 {
 }
 
 .keynote h2 {
-  background-color:#222;
+  background:#ee352a;
 }
 
-.keynote h2:hover {
-	background-color:#ccc;
-}
 
 .why-attend-2 .keynote img {
 	width:100%;
 	height:initial;
 }
 
-.keynote h2 {
-	/*for wallace   margin-top:-250px; */
-	height:20px;
-	text-align:center;
-	padding-bottom:0;
-	font-size:20pt;
-	padding:18px;
-
-}
-
-.keynote h2 {
-	background-color:#222;
-}
-
-.keynote h2:hover {
-	background-color:#333;
-}
 
 footer {
   background: #222;
@@ -368,10 +348,12 @@ footer .footer-col:nth-child(3) {
 }
 
 .full-hero {
-  background-image: url("../images/hero.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-color: #333;
+
+  background-image: url("../images/.jpg");
+  background-size:cover;
+  background-color: white;
+  background-position:center;
+  background-repeat:no-repeat;
   text-align: center;
   overflow: hidden;
 }
@@ -1439,6 +1421,29 @@ footer .footer-col img.sugarcrm, footer .footer-col img.sugarcon {
   border: 2px solid #555;
   padding: 10px 40px;
 }
+
+.ghost-btn-teal {
+  font-family: 'MontserratR';
+  letter-spacing: 3px;
+  font-size: 12px;
+  color: #6ec9c2;
+  border: 2px solid #6ec9c2;
+  padding: 10px 40px;
+  background-color: transparent;
+  -webkit-transition: background-color 0.3s linear;
+     -moz-transition: background-color 0.3s linear;
+      -ms-transition: background-color 0.3s linear;
+       -o-transition: background-color 0.3s linear;
+          transition: background-color 0.3s linear;
+}
+
+.ghost-btn-teal:hover {
+  background: #6ec9c2;
+  color: white;
+  border: 2px solid #6ec9c2;
+  padding: 10px 40px;
+}
+
 
 .set-hero a, .full-sponsors a {
   margin: 0 30px;
